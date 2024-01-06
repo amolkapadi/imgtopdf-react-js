@@ -1,0 +1,50 @@
+body{
+    background-color: #b1f193;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    padding: 20px;
+    border: 1p solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    width :70%;
+}
+
+.btn-convert{
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: #0808b8;
+    color: white;
+}
+[type="file"] {
+    /* Style the color of the message that says 'No file chosen' */
+      color: #878787;
+    }
+    [type="file"]::-webkit-file-upload-button {
+      background: #ED1C1B;
+      border: 2px solid #ED1C1B;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 12px;
+      outline: none;
+      padding: 10px 25px;
+      text-transform: uppercase;
+      transition: all 1s ease;
+    }
+    
+    [type="file"]::-webkit-file-upload-button:hover {
+      background: #fff;
+      border: 2px solid #535353;
+      color: #000;
+    }
+   
